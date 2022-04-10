@@ -3,7 +3,6 @@ html{
     overflow-x: hidden;
 }
 header {
-        
     background-color: lightblue;
     padding: 20px;
     text-align: center;
@@ -58,11 +57,10 @@ to {
     }
     section{
     text-align: center;
-   
     width:450px; 
     height: 330px;
     padding:50px;
-    margin:10px -50px;
+    margin:10px -35px;
     background-color:rgb(241, 238, 224);
     display:inline-block;
     vertical-align:top;
@@ -112,9 +110,9 @@ a:hover{
     text-align: center;
     margin: 20px 550px;
     width:350px; 
-    height: 250px;
+    height: 5%;
     padding:50px;
-    margin:-35px -60px;
+    margin:-35px 80px;
     background-color:transparent;
     display:inline-block;
     transform: translate(35%,10%);
@@ -128,11 +126,10 @@ a:hover{
     top: 650px;
     background-color:transform;
     display:inline-block;
-    transform: translate(90%,-455%);
+    transform: translate(70%,-455%);
     }
-    .b img{
+.b img{
         position: relative;
         top: -15px;
         left: -10px;
     }
-                

@@ -1,8 +1,7 @@
 .img1 {
     width:320px;
     height:120px;
-    line-height:120px;
-    margin: -38px 95px;
+    margin: -38px 105px;
     float: left;
     font-size: 12px;
     text-align: center;
@@ -21,8 +20,7 @@
 .img2 {
     width:320px;
     height:120px;
-    line-height:120px;
-    margin: -38px -80px;
+    margin: -38px -100px;
     float: left;
     font-size: 12px;
     text-align: center;
@@ -31,7 +29,7 @@
     -moz-transition: All 0.5s ease-in-out;
     -o-transition: All 0.5s ease-in-out;
      }
-    .img2:hover {
+.img2:hover {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -41,7 +39,6 @@
 .img3 {
     width:320px;
     height:120px;
-    line-height:120px;
     margin: -38px 50px;
     float: left;
     font-size: 12px;
@@ -51,7 +48,7 @@
     -moz-transition: All 0.5s ease-in-out;
     -o-transition: All 0.5s ease-in-out;
      }
-    .img3:hover {
+.img3:hover {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -61,8 +58,7 @@
 .img4 {
     width:320px;
     height:120px;
-    line-height:120px;
-    margin: -79px 1050px;
+    margin: -79px 980px;
     float: left;
     font-size: 12px;
     text-align: center;
@@ -79,7 +75,7 @@
     -ms-transform: rotate(360deg);
         }
 .ele{
-    margin-left: 180px;
+    margin-left: 190px;
     margin-top: -85px;
     font-family: Brush Script MT, Brush Script Std, cursive;
     }
@@ -95,7 +91,7 @@
         color: rgb(126, 132, 243);
     }
 .sen{
-    margin-left: 770px;
+    margin-left: 750px;
     margin-top: -45px;
     font-family: Brush Script MT, Brush Script Std, cursive;
     }
@@ -103,9 +99,10 @@
     color: rgb(126, 132, 243);
 }
 .col{
-    margin-left: 1100px;
-    margin-top: -45px;
+    margin-left: 1050px;
+    margin-top: -140px;
     font-family: Brush Script MT, Brush Script Std, cursive;
+    float: left;
     }
 .col:hover{
     color: rgb(126, 132, 243);

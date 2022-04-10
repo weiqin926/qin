@@ -15,8 +15,8 @@
     }
 .say{
     text-align: center;
-    margin-top: -330px;
-    margin-left: -230px;
+    margin-top: -30px;
+    margin-left: -35px;
     font-size: 25px;
     }
 .say:hover{
@@ -27,8 +27,8 @@
     }
 .firm{
     font-size: 20px;
-    margin-left: 500px;
-    margin-top: 30px;
+    margin-left: -50px;
+    margin-top: 10px;
     line-height: 2;
     letter-spacing: 5px;
     }
@@ -132,7 +132,7 @@ h3{
 .accordion {
     cursor: pointer;
     position: absolute;
-    top: 2420px;
+    top: 2180px;
     border: none;
     text-align: center;
     font-size: 25px;  
@@ -204,16 +204,16 @@ h3{
   
   }
   
-  .pane2 img:hover {
+.pane2 img:hover {
     box-shadow: 5px 3px 5px rgba(0, 0, 0, .5);
   }
   
 .pane3 img {
     height:400px;
     width: 300px;
-    margin-left: 1100px;
-    position:absolute;
-    top: 5px;
+    position:relative;
+    left: 1000px;
+    top: -620px;
     border: solid 1px gray;
   
   }
@@ -265,8 +265,8 @@ article{
 .study{
     font-size: 20px;
     position: relative;
-    left: 1110px;
-    top: -180px;
+    left: 1080px;
+    top: -600px;
     line-height: 1.5;
 }
 .but {
@@ -339,7 +339,7 @@ article{
     height: 150px;
     padding:50px;
     margin:-220px 750px;
-    background-color:#03bcf4;
+    background-color:transparent;
     display:inline-block;
     vertical-align:top;
     text-align:center;
@@ -356,4 +356,28 @@ article{
     vertical-align:top;
     text-align:center;
     transform: translate(35%,10%);
-                    }             
+}      
+.k{
+    margin: 20px 550px;
+    width:200px; 
+    height: 130px;
+    padding:50px;
+    margin:-100px 780px;
+    background-color:transparent;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    transform: translate(35%,10%);
+}        
+.y{
+    margin: 20px 550px;
+    width:200px; 
+    height: 200px;
+    padding:50px;
+    margin:-350px 380px;
+    background-color:transparent;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    transform: translate(35%,10%);
+}          
