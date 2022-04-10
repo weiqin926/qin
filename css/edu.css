@@ -1,0 +1,112 @@
+.img1 {
+    width:320px;
+    height:120px;
+    line-height:120px;
+    margin: -38px 95px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    transition: All 0.5s ease-in-out;
+    -webkit-transition: All 0.5s ease-in-out;
+    -moz-transition: All 0.5s ease-in-out;
+    -o-transition: All 0.5s ease-in-out;
+     }
+.img1:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+        }
+.img2 {
+    width:320px;
+    height:120px;
+    line-height:120px;
+    margin: -38px -80px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    transition: All 0.5s ease-in-out;
+    -webkit-transition: All 0.5s ease-in-out;
+    -moz-transition: All 0.5s ease-in-out;
+    -o-transition: All 0.5s ease-in-out;
+     }
+    .img2:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+        }
+.img3 {
+    width:320px;
+    height:120px;
+    line-height:120px;
+    margin: -38px 50px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    transition: All 0.5s ease-in-out;
+    -webkit-transition: All 0.5s ease-in-out;
+    -moz-transition: All 0.5s ease-in-out;
+    -o-transition: All 0.5s ease-in-out;
+     }
+    .img3:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+        }
+.img4 {
+    width:320px;
+    height:120px;
+    line-height:120px;
+    margin: -79px 1050px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    transition: All 0.5s ease-in-out;
+    -webkit-transition: All 0.5s ease-in-out;
+    -moz-transition: All 0.5s ease-in-out;
+    -o-transition: All 0.5s ease-in-out;
+     }
+.img4:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+        }
+.ele{
+    margin-left: 180px;
+    margin-top: -85px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+.ele:hover{
+        color: rgb(126, 132, 243);
+    }
+.jun{
+    margin-left: 500px;
+    margin-top: -45px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+ .jun:hover{
+        color: rgb(126, 132, 243);
+    }
+.sen{
+    margin-left: 770px;
+    margin-top: -45px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+.sen:hover{
+    color: rgb(126, 132, 243);
+}
+.col{
+    margin-left: 1100px;
+    margin-top: -45px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+.col:hover{
+    color: rgb(126, 132, 243);
+}

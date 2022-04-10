@@ -1,0 +1,138 @@
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
+header {
+        
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    }
+footer {
+    background: linear-gradient(to bottom, #c5deea 0%,#8abbd7 31%,#066dab 100%);
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin-top: 150px;
+    text-align: center;
+    }
+body {  
+animation: example;
+animation-duration: 9s;
+animation-iteration-count:infinite;
+   }
+@keyframes example {
+from {
+      background-image: linear-gradient(-45deg,#e7c6f0e0,hsl(199, 93%, 84%),hsl(333, 91%, 86%));
+       background-repeat: no-repeat;
+    }
+to {
+    background-image: linear-gradient(-55deg,#d193a6,rgb(233, 245, 122),rgb(233, 206, 147));
+    background-repeat: no-repeat;
+    }
+   }
+.photo{
+    float: left;
+    padding: 50px 0px 0px;
+    margin:10px 0px 0px 200px;
+    } 
+.motto{
+    margin-left: 650px;
+    margin-bottom: 20px;
+    font-style: italic;
+    letter-spacing: 7px;
+    text-align: justify;
+    color:transparent;
+    -webkit-text-stroke: 1px rgb(90, 150, 219);
+    text-shadow: 2px 5px 5px white;
+    }
+.motto img{
+    animation-name:max;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes max{
+        0%{transform: scale(1);}
+        50%{transform: scale(1.5);}
+        100%{transform: scale(1);}
+    }
+    section{
+    text-align: center;
+   
+    width:450px; 
+    height: 330px;
+    padding:50px;
+    margin:10px -50px;
+    background-color:rgb(241, 238, 224);
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    transform: translate(35%,10%);
+    border-radius: 55px;  
+    }
+h1{
+    color: darksalmon;
+    letter-spacing: 5px;
+    margin-top: 0px;  
+   }
+h2{
+    letter-spacing: 5px;
+    line-height: 2;
+    font-family: 標楷體;
+    text-align:center;
+    }
+hr {
+    height: 65px;
+    border:0;
+    box-shadow: inset 0px 12px 8px -10px white;
+    }
+li{
+    display: inline-block;
+    word-spacing: 10px;
+    margin: 10px 100px;
+    font-size: 20px;     
+    }
+a{
+    text-decoration: none;
+    }
+a:hover{
+    background-color: rgb(98, 181, 184);
+    border-radius: 10px;
+    color: aliceblue;
+    border:2;
+    }
+#btnTop img{
+        display:flex;
+        margin: -20px 3px;
+        position: absolute;
+        right: 5px;
+        cursor: pointer;
+        }     
+.a{
+    text-align: center;
+    margin: 20px 550px;
+    width:350px; 
+    height: 250px;
+    padding:50px;
+    margin:-35px -60px;
+    background-color:transparent;
+    display:inline-block;
+    transform: translate(35%,10%);
+            }
+.b{
+    text-align: center;
+    width:20px; 
+    height: 20px;
+    padding:40px;
+    position: absolute;
+    top: 650px;
+    background-color:transform;
+    display:inline-block;
+    transform: translate(90%,-455%);
+    }
+    .b img{
+        position: relative;
+        top: -15px;
+        left: -10px;
+    }
+                
