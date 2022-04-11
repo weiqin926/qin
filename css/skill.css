@@ -1,19 +1,4 @@
-.blue-left-top{
-width: 100px;
-height: 60px;
-border-left: 4px solid #91b8f3;
-border-top: 4px solid #91b8f3;
-padding-top: -20px;
-margin-left: 60px;
-}
-.blue-right-bottom{
-width: 100px;
-height: 80px;
-border-right: 4px solid #91b8f3;
-border-bottom: 4px solid #91b8f3;
-margin-top: 90px;
-margin-left: 340px;
-}
+
 p {
 position: absolute;
 top: 10%;
