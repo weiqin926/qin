@@ -1,11 +1,10 @@
 html{
     width: 100%;
     overflow-x: hidden;
-    
 }
 header {
     background-color: lightblue;
-    padding: 20px 50px;
+    padding: 20px;
     text-align: center;
     }
 footer {
@@ -17,18 +16,20 @@ footer {
     text-align: center;
     }
 body {  
-    animation: example;
-    animation-duration: 9s;
-    animation-iteration-count:infinite;
-   }
+animation: example;
+animation-duration: 9s;
+animation-iteration-count:infinite;
+background-size: cover;
+}
+
 @keyframes example {
 from {
       background-image: linear-gradient(-45deg,#e7c6f0e0,hsl(199, 93%, 84%),hsl(333, 91%, 86%));
-       background-repeat: no-repeat;
+       background-repeat: no-repeat fixed;
     }
 to {
     background-image: linear-gradient(-55deg,#d193a6,rgb(233, 245, 122),rgb(233, 206, 147));
-    background-repeat: no-repeat;
+    background-repeat: no-repeat fixed;
     }
    }
 .photo{
@@ -56,7 +57,8 @@ to {
         50%{transform: scale(1.5);}
         100%{transform: scale(1);}
     }
-section{
+    section{
+    text-align: center;
     width:450px; 
     height: 330px;
     padding:50px;
@@ -122,8 +124,8 @@ a:hover{
     width:20px; 
     height: 20px;
     padding:40px;
-    position: relative;
-    top: 420px;
+    position: absolute;
+    top: 650px;
     background-color:transform;
     display:inline-block;
     transform: translate(70%,-455%);
