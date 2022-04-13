@@ -16,22 +16,9 @@ footer {
     text-align: center;
     }
 body {  
-animation: example;
-animation-duration: 9s;
-animation-iteration-count:infinite;
-background-size: cover;
-}
-
-@keyframes example {
-from {
-      background-image: linear-gradient(-45deg,#e7c6f0e0,hsl(199, 93%, 84%),hsl(333, 91%, 86%));
-       background-repeat: no-repeat fixed;
-    }
-to {
-    background-image: linear-gradient(-55deg,#d193a6,rgb(233, 245, 122),rgb(233, 206, 147));
+    background-image: linear-gradient(-45deg,#e7c6f0e0,hsl(199, 93%, 84%),hsl(333, 91%, 86%));
     background-repeat: no-repeat fixed;
-    }
-   }
+}
 .photo{
     float: left;
     padding: 50px 0px 0px;

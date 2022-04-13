@@ -56,7 +56,7 @@ border-radius: 50%;
         transform: translate(-50%, -55%) rotate(200deg);
     }
     100% {
-    transform: translate(-50%, -78%) rotate(360deg);
+    transform: translate(-50%, -72%) rotate(360deg);
 }
 }
 p {
@@ -119,7 +119,7 @@ border-radius: 50%;
         transform: translate(-50%, -55%) rotate(200deg);
     }
     100% {
-    transform: translate(-50%, -95%) rotate(360deg);
+    transform: translate(-50%, -88%) rotate(360deg);
 }
 }
 .cont {
