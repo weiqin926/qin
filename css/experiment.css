@@ -314,7 +314,7 @@ article{
     font-size: 17px;
     letter-spacing: 7px;
 }
-.d {
+.block3 {
     margin: 20px 550px;
     width:550px; 
     height: 330px;
@@ -326,7 +326,7 @@ article{
     text-align:center;
     transform: translate(35%,10%);
     }
-.e {
+.block4 {
         margin: 20px 550px;
         width:200px; 
         height: 80px;
@@ -338,7 +338,7 @@ article{
         text-align:center;
         transform: translate(35%,10%);
         }
-.f {
+.block5 {
     margin: 20px 550px;
     width:200px; 
     height: 150px;
@@ -350,7 +350,7 @@ article{
     text-align:center;
     transform: translate(35%,10%);
     }
-.i{
+.block6{
     margin: 20px 550px;
     width:200px; 
     height: 150px;
@@ -362,7 +362,7 @@ article{
     text-align:center;
     transform: translate(35%,10%);
     }
-.m{
+.block7{
     margin: 20px 550px;
     width:100px; 
     height: 130px;
@@ -374,7 +374,7 @@ article{
     text-align:center;
     transform: translate(35%,10%);
 }      
-.k{
+.block8{
     margin: 20px 550px;
     width:200px; 
     height: 130px;
@@ -386,7 +386,7 @@ article{
     text-align:center;
     transform: translate(35%,10%);
 }        
-.y{
+.block9{
     margin: 20px 550px;
     width:200px; 
     height: 200px;

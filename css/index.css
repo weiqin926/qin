@@ -95,7 +95,7 @@ a:hover{
         right: 5px;
         cursor: pointer;
         }     
-.a{
+.block1{
     text-align: center;
     margin: 20px 550px;
     width:350px; 
@@ -106,7 +106,7 @@ a:hover{
     display:inline-block;
     transform: translate(35%,10%);
             }
-.b{
+.block2{
     text-align: center;
     width:20px; 
     height: 20px;

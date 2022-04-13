@@ -17,7 +17,7 @@ transform: translate(-50%, -50%);
 font-size: 35px;
 color: #f3f0f0;
 }
-.container {
+.container1 {
 width: 120px;
 height: 120px;
 padding: 5px;
@@ -29,14 +29,14 @@ transform: translate(-300%, 30%);
 border-radius: 50%;
 overflow: hidden;
 }
-.wave {
+.wave1 {
 position: relative;
 width: 120px;
 height: 120px;
 background-color: rgb(118, 218, 255);
 border-radius: 50%;
 }
-.wave::before {
+.wave1::before {
     content: "";
     position: absolute;
     width: 250px;
@@ -48,7 +48,7 @@ border-radius: 50%;
     transform: translate(-50%, -70%) rotate(0);
     animation: rotate1 6s linear infinite;    
 }   
-.wave::after {
+.wave1::after {
     animation: rotate1 8s linear -5s infinite;
 }
 @keyframes rotate1 {
@@ -80,7 +80,7 @@ transform: translate(-50%, -50%);
 font-size: 35px;
 color: #f3f0f0;
 }
-.containe {
+.container2{
 width: 120px;
 height: 120px;
 padding: 5px;
@@ -92,14 +92,14 @@ transform: translate(-300%, 30%);
 border-radius: 50%;
 overflow: hidden;
 }
-.wav {
+.wave2{
 position: relative;
 width: 120px;
 height: 120px;
 background-color: rgb(118, 218, 255);
 border-radius: 50%;
 }
-.wav::before {
+.wave2::before {
     content: "";
     position: absolute;
     width: 250px;
@@ -111,7 +111,7 @@ border-radius: 50%;
     transform: translate(-50%, -70%) rotate(0);
     animation: rotate2 6s linear infinite;    
 }   
-.wav::after {
+.wave2::after {
     animation: rotate2 7s linear -5s infinite;
 }
 @keyframes rotate2 {
@@ -122,7 +122,7 @@ border-radius: 50%;
     transform: translate(-50%, -88%) rotate(360deg);
 }
 }
-.cont {
+.container3 {
 width: 120px;
 height: 120px;
 padding: 5px;
@@ -134,14 +134,14 @@ transform: translate(-300%, 30%);
 border-radius: 50%;
 overflow: hidden;
 }
-.wa {
+.wave3 {
 position: relative;
 width: 120px;
 height: 122px;
 background-color: rgb(118, 218, 255);
 border-radius: 50%;
 }
-.wa::before {
+.wave3::before {
     content: "";
     position: absolute;
     width: 250px;
@@ -153,7 +153,7 @@ border-radius: 50%;
     transform: translate(-50%, -70%) rotate(0);
     animation: rotate3 6s linear infinite;    
 }   
-.wa::after {
+.wave3::after {
     animation: rotate3 10s linear -5s infinite;
 }
 @keyframes rotate3 {
@@ -164,7 +164,7 @@ border-radius: 50%;
     transform: translate(-50%, -70%) rotate(360deg);
 }
 }
-.con {
+.container4 {
 width: 120px;
 height: 120px;
 padding: 5px;
@@ -176,14 +176,14 @@ transform: translate(-300%, 30%);
 border-radius: 50%;
 overflow: hidden;
 }
-.w {
+.wave4{
 position: relative;
 width: 120px;
 height: 120px;
 background-color: rgb(118, 218, 255);
 border-radius: 50%;
 }
-.w::before {
+.wave4::before {
     content: "";
     position: absolute;
     width: 250px;
@@ -195,7 +195,7 @@ border-radius: 50%;
     transform: translate(-50%, -70%) rotate(0);
     animation: rotate4 6s linear infinite;    
 }   
-.w::after {
+.wave4::after {
     animation: rotate4 9s linear -5s infinite;
 }
 @keyframes rotate4 {
